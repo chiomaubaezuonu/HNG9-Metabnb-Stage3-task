@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Rose', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 196, 196);
+    padding: 0.5rem 3rem;
+}
+#nav-logo{
+    width: 5%;
+}
+#nav-wallet{
+    width: 10%;
+}
+.nav-text{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+/* span{
+    margin-right: 2rem;
+} */
+.left-text span{
+    color: #A02279;
+    font-weight: 700;
+}
+.metaverse{
+    padding: 1.5rem 5rem;
+    width: 100%;
+    display: flex;
+}
+.left-text{
+    width: 50%;
+}
+.right-images{
+    width: 50%;
+    display: flex;
+}
+.metalinks1{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+#inspiration-title{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+}
