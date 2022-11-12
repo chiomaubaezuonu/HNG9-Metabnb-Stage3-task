@@ -54,3 +54,15 @@ nav{
     margin-top: 1rem;
     color: #000000;
 }
+.inspiration-images{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.feature-img-row1, .feature-img-row2{
+    display: flex;
+}
+.feature{
+    width: 25%;
+}
