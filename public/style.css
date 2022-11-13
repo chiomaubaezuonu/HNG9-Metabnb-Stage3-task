@@ -101,3 +101,17 @@ nav{
     border-radius: 0.4rem;
     border: none;
 }
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+.right-footer{
+    display: flex;
+}
+h6{
+    color: #FFFFFF;
+}
