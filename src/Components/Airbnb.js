@@ -44,6 +44,16 @@ const Airbnb = () => {
         <img src="./images/feature-img8.png" className="feature" alt="features"/>
         </div>
       </div>
+      <div className="nfts">
+        <div className="nfts-text">
+          <h1 id="nfts-title">Metabnb NFTs</h1>
+          <p id="nft-msg">Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
+          <button id="nfts-btn">Learn more</button>
+        </div>
+        <div className="nfts-images">
+          <img src="./images/nfts-images.png" id="nft-img" alt="nft" />
+        </div>
+      </div>
     </div>
   );
 };
