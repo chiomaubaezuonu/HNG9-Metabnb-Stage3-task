@@ -9,40 +9,70 @@ body{
 nav{
     display: flex;
     width: 80%;
-    margin: 0 auto;
+    margin: 1rem auto;
     justify-content: space-around;
-    background-color: rgb(241, 196, 196);
     padding: 0.5rem 3rem;
 }
 #nav-logo{
-    width: 5%;
+    width: 12%;
 }
 #nav-wallet{
-    width: 10%;
+    width: 15%;
 }
-.nav-text{
+.nav-links{
     display: flex;
     justify-content: space-around;
     margin: auto;
+}
+.link{
+    padding: 0.8rem;
 }
 
 .left-text span{
     color: #A02279;
     font-weight: 700;
 }
-.metaverse{
-    padding: 1.5rem 5rem;
-    /* width: 80%; */
+.hero-section{
+    width: 80%;
     display: flex;
+    justify-content: space-around;
     margin: auto;
-    margin-top: 1.7rem;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+#hero-msg{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+#hero-text{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 2rem 0 2rem 0;
 }
 .left-text{
-    width: 50%;
+    width: 40%;
 }
-.right-images{
-    width: 50%;
-    display: flex;
+.hero-img{
+    width: 40%;
+}
+#heroImg{
+    width: 90%;
+}
+#hero-input{
+    padding: 0.4rem 2rem;
+    /* border: none; */
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    border: 0.1rem solid #A3A3A3;
+}
+#hero-btn{
+    padding: 0.5rem 2.9rem;
+    border: none;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    background-color: #A02279;
+    color: white;
 }
 .metalinks1{
     width: 80%;

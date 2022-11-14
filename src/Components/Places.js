@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Places = () => {
   return (
@@ -34,6 +35,7 @@ const Places = () => {
         <img src="./images/place-img7.png" alt="place-to-go" />
         <img src="./images/place-img8.png" alt="place-to-go" />
       </div>
+      <Footer />
     </div>
   );
 };
