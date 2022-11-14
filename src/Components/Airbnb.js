@@ -1,8 +1,9 @@
 import React from "react";
+import Places from "./Places";
 
 const Airbnb = () => {
   return (
-    <div>
+    <div className="metabnb">
       <div className="metaverse">
         <div className="left-text">
           <h1>
@@ -88,7 +89,9 @@ const Airbnb = () => {
           </div>
         </div>
       </div>
+      <Places />
     </div>
+    
   );
 };
 

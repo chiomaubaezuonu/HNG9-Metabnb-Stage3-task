@@ -1,14 +1,12 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
-import Airbnb from './Components/Airbnb'
+import React from "react";
+import Metabnb from "./Components/Metabnb";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Airbnb />
+      <Metabnb />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
