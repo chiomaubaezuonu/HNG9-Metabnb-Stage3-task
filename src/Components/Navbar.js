@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Modal from "./Modal";
 
 const Navbar = () => {
   const [modal, setModal] = React.useState(false);
