@@ -41,7 +41,8 @@ nav {
     justify-content: space-around;
     margin: auto;
 }
- a {
+
+a {
     text-decoration: none;
     color: black;
 }
@@ -50,11 +51,13 @@ nav {
     padding: 0.8rem;
     text-decoration: none;
 }
-.hamburger{
+
+.hamburger {
     display: none;
     cursor: pointer;
 }
-.bar{
+
+.bar {
     display: block;
     width: 1.9rem;
     height: 0.031rem;
@@ -151,7 +154,7 @@ nav {
     width: 18rem;
     margin: 0 auto;
     margin-right: 1rem;
-    
+
 }
 
 .nfts {
@@ -201,7 +204,8 @@ nav {
     padding: 2rem;
     margin: auto;
 }
-#copyright{
+
+#copyright {
     width: 12rem;
     font-size: 1rem;
 }
@@ -225,7 +229,8 @@ nav {
 .footer-text {
     margin: 1.5rem;
 }
-.footer-text p{
+
+.footer-text p {
     color: #F1F3F9;
     font-size: 0.9rem;
     padding: 0.4rem;
@@ -255,14 +260,16 @@ h6 {
     display: flex;
     justify-content: space-around;
 }
-#location-btn{
+
+#location-btn {
     width: 8rem;
 }
 
 .place {
     padding: 1.2rem;
 }
-.places-img{
+
+.places-img {
     padding: 1.2rem;
     margin: 0 auto;
 }
@@ -279,6 +286,7 @@ body.active-modal {
 .first-content {
     display: flex;
     justify-content: space-between;
+    padding: 0 2rem;
 }
 
 .close-modal {
@@ -298,7 +306,7 @@ body.active-modal {
     margin-top: 10rem;
     margin-left: 24rem;
     z-index: 38;
-    padding: 3rem 1rem;
+    padding: 2rem 2rem;
     background-color: white;
     border-radius: 0.5rem;
 }
@@ -337,149 +345,213 @@ hr {
     text-align: center;
     margin-right: 14rem;
 }
-#metamask{
+
+#metamask {
     margin-right: 16rem;
 }
 
-@media (max-width: 480px) { 
-    .metabnb{
+
+@media (max-width: 480px) {
+    .metabnb {
         width: 100%;
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 2rem 3rem;
-        background-color: yellow;
     }
-    #nav-logo{
+
+    #nav-logo {
         display: none;
     }
-    nav{
+
+    nav {
         display: flex;
         flex-direction: column;
     }
     
-    .hero-section{
+.modal{
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    width: 80%;
+}
+.wallet-btn {
+    padding: 0.6rem 0;
+    width: 100%;
+}
+.wallet-img{
+    padding: 0;
+}
+hr{
+    width: 100%;
+}
+    .hero-section {
         width: 100%;
         margin: 2rem auto;
         display: flex;
         flex-direction: column-reverse;
         padding: 0 0;
     }
+
     .left-text {
         width: 100%;
     }
-    .hero-img{
+
+    .hero-img {
         width: 100%;
         margin: 0 auto;
     }
-    #heroImg{
+
+    #heroImg {
         width: 100%;
     }
-    
-    .left-text{
+
+    .left-text {
         width: 100%;
         padding: 2rem 0;
     }
-    #hero-msg{
+
+    #hero-msg {
         font-size: 1.5rem;
     }
-    #hero-text{
+
+    #hero-text {
         text-align: center;
         font-size: 1rem;
         line-height: 2rem;
     }
-    #hero-input, #hero-btn{
+
+    #hero-input, #hero-btn {
         width: 12rem;
         padding: 0.8rem;
         border-radius: 0.3rem;
         margin: 0.5rem;
         margin-left: 3rem;
     }
-    #metalinks1{
+
+    #metalinks1 {
         width: 100%;
         height: 26rem;
         margin: 0 auto;
     }
-    /* .inspiration-images{
-        width: 100%;
-        background-color: blue;
-    } */
-     .feature-img-row1, .feature-img-row2{
-        display: flex; 
+    .locations{
+        display: flex;
+        flex-direction: column;
+    }
+    .place{
+        margin: 0.3rem;
+        padding: 0.5rem;
+    }
+    #location-btn{
+        width: 70%;
+        height: 5rem;
+        margin: 0
+        auto;
+    }
+
+    .feature-img-row1, .feature-img-row2 {
+        display: flex;
         width: 100%;
         flex-direction: column;
-    }  
-     .feature{
+    }
+
+    .feature {
         margin: 0.7rem 0;
-        width: 100%; 
-    }   
-    .nfts{
+        width: 100%;
+    }
+
+    .nfts {
         display: flex;
         width: 100%;
         flex-direction: column-reverse;
         margin: 0 auto;
         padding: 2rem;
     }
-    .nfts-text{
+
+    .nfts-text {
         width: 100%;
-    }
-    /* #nft-img{
-        width: 100%;
-    } */
-    .nfts-images{
-        width: 100%;
-        margin: 0 auto; 
-    } 
-    #nfts-title{
-        font-size: 2rem;
-        margin: 0 0;
-        padding: 0;
-    }
-    #nft-msg{
-        width: 100%;
-    }
-     /* 
-    .nfts-text{
-        background-color: green;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    #nfts-btn{
-        padding: 0.6rem 3rem;
+        text-align: center;
+        padding: 0 0;
         margin: 0 auto;
-    } */
-    /* #nft-img{
-        padding-right: 7rem;
-        width: 20rem;
-        /* margin: 0 auto; 
-        padding-top: 3rem;
-        padding-bottom: 0.1rem;
-    } */
-    /* 
-     */
-    .footer{
-        display: flex;
-        flex-direction: column;
+    }
+
+    .nfts-images {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #nfts-title {
+        font-size: 1.2rem;
+    }
+
+    #nft-msg {
         width: 100%;
     }
-    .footer-logo{
+
+
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .footer-logo {
         width: 90%;
     }
-    .right-footer{
+
+    .right-footer {
         display: flex;
         width: 90%;
         flex-direction: column;
         margin: 0 auto;
         /* padding: 3rem; */
     }
-    .footer-text h3{
+
+    .footer-text h3 {
         font-size: 2rem;
     }
-    .footer-text p{
+
+    .footer-text p {
         font-size: 1rem;
     }
-    .social-media{
-        margin: 1rem auto;
-    }
-
-   
 }
+@media (max-width: 768px){
+    nav{
+        background-color: rgb(243, 238, 238);
+        padding: 1.5rem 1rem;
+        margin: 0;
+        font-size: 1rem;
+    }
+    
+    .locations{
+        display: flex;
+        padding: 2rem 0;
+    }
+    .location-img{
+        width: 40%;
+    }
+    .place{
+        padding: 0;
+    }
+    .feature-img-row1{
+        padding: 0 13rem;
+        margin: 0 13rem;
+    }
+    .feature{
+        width: 40rem;
+    }
+    
+}
+/* @media (min-width: 1024px){
+    .metabnb{
+        background-color: red;
+        margin: 26rem 0;
+    }
+    nav{
+        background-color: lime;
+        padding: 2rem
+    }
+} */
