@@ -34,6 +34,12 @@ const Navbar = () => {
         <button onClick={toggleModal} id="nav-wallet">
           Connect wallet
         </button>
+        <div className="hamburger">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </nav>
       {modal && (
         <div className="modal">

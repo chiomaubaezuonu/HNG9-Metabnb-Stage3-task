@@ -33,19 +33,51 @@ const Airbnb = () => {
         <h1 id="inspiration-title">Inspiration for your next adventure</h1>
         <div className="inspiration-images">
           <div className="feature-img-row1">
-            {/* <img src="./images/feature-img1.png" className="feature" alt="features"/>
-          <img src="./images/feature-img2.png" className="feature" alt="features"/>
-          <img src="./images/feature-img3.png" className="feature" alt="features"/>
-          <img src="./images/feature-img4.png" className="feature" alt="features"/> */}
-            <img src="./images/feature1-img.png" id="feature1" alt="images" />
+            <img
+              src="./images/feature-img1.png"
+              className="feature"
+              alt="features"
+            />
+            <img
+              src="./images/feature-img2.png"
+              className="feature"
+              alt="features"
+            />
+            <img
+              src="./images/feature-img3.png"
+              className="feature"
+              alt="features"
+            />
+            <img
+              src="./images/feature-img4.png"
+              className="feature"
+              alt="features"
+            />
+            {/* <img src="./images/feature1-img.png" id="feature1" alt="images" /> */}
           </div>
-          <img src="./images/feature2-img.png" id="feature2" alt="images" />
-          {/* <div className="feature-img-row2">
-        <img src="./images/feature-img5.png" className="feature" alt="features"/>
-        <img src="./images/feature-img6.png" className="feature" alt="features"/>
-        <img src="./images/feature-img7.png" className="feature" alt="features"/>
-        <img src="./images/feature-img8.png" className="feature" alt="features"/>
-        </div> */}
+          {/* <img src="./images/feature2-img.png" id="feature2" alt="images" /> */}
+          <div className="feature-img-row2">
+            <img
+              src="./images/feature-img5.png"
+              className="feature"
+              alt="features"
+            />
+            <img
+              src="./images/feature-img6.png"
+              className="feature"
+              alt="features"
+            />
+            <img
+              src="./images/feature-img7.png"
+              className="feature"
+              alt="features"
+            />
+            <img
+              src="./images/feature-img8.png"
+              className="feature"
+              alt="features"
+            />
+          </div>
         </div>
       </section>
 
