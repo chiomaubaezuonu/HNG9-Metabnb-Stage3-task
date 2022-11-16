@@ -340,6 +340,8 @@ hr {
 }
 
 
+
+
 @media (max-width: 480px) {
     .metabnb {
         width: 100%;
@@ -457,7 +459,9 @@ a{
         margin: 0
         auto;
     }
-
+.inspiration-images{
+    padding: 3rem;
+}
     .feature-img-row1, .feature-img-row2 {
         display: flex;
         width: 100%;
@@ -524,24 +528,36 @@ a{
         font-size: 1rem;
     }
 }
-@media (max-width: 768px){
-    nav{
+
+@media (min-width: 550px){
+    .metabnb{
         width: 100%;
-        background-color: red;
+    }
+    nav{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
         padding: 1rem 1rem;
         margin: 0;
+        font-size: 0.5rem;
+    }
+    a{
         font-size: 1rem;
     }
-    
-    .locations{
-        display: flex;
-        padding: 2rem 0;
+    .feature{
+        width: 10rem;
     }
-    /* .location-img{
-        width: 40%;
-    } */
-    .place{
-        padding: 0;
+    #nav-logo{
+        display: block;
+        padding: 3rem 0;
+        margin: 0 auto;
     }
-
+    #nav-wallet{
+        margin-left: 39rem;
+        margin-top: 0.4rem;
+    }
+    .modal{
+        width: 70%;
+        margin-left: 5rem;
+    }
 }
