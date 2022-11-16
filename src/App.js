@@ -4,7 +4,7 @@ import Airbnb from "./Components/Airbnb";
 import Footer from "./Components/Footer";
 import Places from "./Components/Places";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ConnectWallet from "./Components/ConnectWallet";
+import Modal from "./Components/Modal";
 
 const App = () => {
   return (
@@ -13,8 +13,7 @@ const App = () => {
       <BrowserRouter>
           <Routes>  
             <Route path='/' element={<Airbnb />} />
-            <Route path='/place to stay' element={<Places />} />
-            <Route path='/connectwallet' element={<ConnectWallet />} />
+            <Route path='/places-to-stay' element={<Places />} />
           </Routes>
         </BrowserRouter>
     </div>

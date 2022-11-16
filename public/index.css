@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 92%;
+    @media (max-width: 1180px) {
+      font-size: 84%;
+    }
+    @media (max-width: 1080px) {
+      font-size: 77%;
+    }
+    @media (max-width: 980px) {
+      font-size: 68%;
+    }
+    @media (max-width: 850px) {
+      font-size: 90%;
+    }
+    @media (max-width: 650px) {
+      font-size: 80%;
+    }
+  
+    @media (min-width: 1500px) {
+      font-size: 100%;
+    }
+    @media (min-width: 1700px) {
+      font-size: 130%;
+    }
+    @media (min-width: 2000px) {
+      font-size: 150%;
+    }
+    @media (min-width: 2500px) {
+      font-size: 200%;
+    }
+    @media (min-width: 2800px) {
+      font-size: 215%;
+    }
+    @media (min-width: 3000px) {
+      font-size: 225%;
+    }
+  }

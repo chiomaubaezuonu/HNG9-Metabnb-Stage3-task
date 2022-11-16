@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const Airbnb = () => {
   return (
     <div className="metabnb">
-    <Navbar />  
+      <Navbar />
       <div className="hero-section">
         <div className="left-text">
           <h1 id="hero-msg">
@@ -17,33 +17,46 @@ const Airbnb = () => {
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
-          <input type="text" id="hero-input" placeholder="Search for a location" />
+          <input
+            type="text"
+            id="hero-input"
+            placeholder="Search for a location"
+          />
           <button id="hero-btn">Search</button>
         </div>
         <div className="hero-img">
-            <img src="./images/hero-img.png" id="heroImg"alt="hero-images"/>
+          <img src="./images/hero-img.png" id="heroImg" alt="hero-images" />
         </div>
       </div>
       <img src="./images/meta-links.png" className="metalinks1" alt="links" />
-      <h1 id="inspiration-title">Inspiration for your next adventure</h1>
-      <div className="inspiration-images">
-        <div className="feature-img-row1">
-          <img src="./images/feature-img1.png" className="feature" alt="features"/>
+      <section>
+        <h1 id="inspiration-title">Inspiration for your next adventure</h1>
+        <div className="inspiration-images">
+          <div className="feature-img-row1">
+            {/* <img src="./images/feature-img1.png" className="feature" alt="features"/>
           <img src="./images/feature-img2.png" className="feature" alt="features"/>
           <img src="./images/feature-img3.png" className="feature" alt="features"/>
-          <img src="./images/feature-img4.png" className="feature" alt="features"/>
-        </div>
-        <div className="feature-img-row2">
+          <img src="./images/feature-img4.png" className="feature" alt="features"/> */}
+            <img src="./images/feature1-img.png" id="feature1" alt="images" />
+          </div>
+          <img src="./images/feature2-img.png" id="feature2" alt="images" />
+          {/* <div className="feature-img-row2">
         <img src="./images/feature-img5.png" className="feature" alt="features"/>
         <img src="./images/feature-img6.png" className="feature" alt="features"/>
         <img src="./images/feature-img7.png" className="feature" alt="features"/>
         <img src="./images/feature-img8.png" className="feature" alt="features"/>
+        </div> */}
         </div>
-      </div>
+      </section>
+
       <div className="nfts">
         <div className="nfts-text">
           <h1 id="nfts-title">Metabnb NFTs</h1>
-          <p id="nft-msg">Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
+          <p id="nft-msg">
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
           <button id="nfts-btn">Learn more</button>
         </div>
         <div className="nfts-images">
@@ -52,7 +65,6 @@ const Airbnb = () => {
       </div>
       <Footer />
     </div>
-    
   );
 };
 

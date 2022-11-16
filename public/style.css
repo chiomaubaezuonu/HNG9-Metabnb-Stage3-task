@@ -1,72 +1,103 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Red Rose', cursive;
 }
-nav{
+
+.metabnb {
+    padding: 0;
+    position: relative;
+}
+
+nav {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
     justify-content: space-around;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 5rem;
 }
-#nav-logo{
-    width: 12%;
+
+#nav-logo {
+    width: 10rem;
+    object-fit: contain;
 }
-#nav-wallet{
+
+#nav-wallet {
     width: 15%;
+    background-color: #A02279;
+    color: #FFFFFF;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     justify-content: space-around;
     margin: auto;
 }
-.link{
-    padding: 0.8rem;
+ a {
+    text-decoration: none;
+    color: black;
 }
 
-.left-text span{
+.link {
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+.left-text span {
     color: #A02279;
     font-weight: 700;
 }
-.hero-section{
-    width: 80%;
+
+.hero-section {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin: auto;
-    margin-top: 3rem;
-    padding: 2rem;
+    margin-top: 5rem;
+    padding: 0.5rem 5rem;
 }
-#hero-msg{
+
+#hero-msg {
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 700;
 }
-#hero-text{
+
+#hero-text {
     line-height: 1.5rem;
-    font-size: 1rem;
-    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
-.left-text{
-    width: 40%;
+
+.left-text {
+    width: 50%;
 }
-.hero-img{
-    width: 40%;
+
+.hero-img {
+    width: 50%;
 }
-#heroImg{
-    width: 90%;
+
+#heroImg {
+    width: 100%;
 }
-#hero-input{
+
+#hero-input {
     padding: 0.4rem 2rem;
-    /* border: none; */
     border-top-left-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
     border: 0.1rem solid #A3A3A3;
 }
-#hero-btn{
+
+#hero-btn {
     padding: 0.5rem 2.9rem;
     border: none;
     border-bottom-right-radius: 0.3rem;
@@ -74,80 +105,264 @@ nav{
     background-color: #A02279;
     color: white;
 }
-.metalinks1{
-    width: 80%;
-    margin:0 auto;
-    margin-left: 7.7rem;
+
+.metalinks1 {
+    width: 100%;
+    margin: 3rem auto;
 }
-#inspiration-title{
+
+#inspiration-title {
     text-align: center;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 1.8rem;
     color: #000000;
+    font-size: 2rem;
 }
-.inspiration-images{
+
+#feature1, #feature2 {
+    width: 100%;
+}
+
+.inspiration-images {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-direction: column;
-    margin: 1rem auto 0;
+    margin: 2rem auto;
+    padding: 0.5rem 5rem;
 }
-.feature-img-row1, .feature-img-row2{
+
+.feature-img-row1, .feature-img-row2 {
     display: flex;
     margin: 1rem 0;
 }
-.feature{
+
+.feature {
     width: 18%;
     margin: 0 auto;
     padding: 0.1rem;
 }
-.nfts{
+
+.nfts {
     background-color: #A02279;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 5rem 5rem;
     color: white;
     display: flex;
+    justify-content: space-around;
 }
-#nfts-title{
+
+#nfts-title {
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
-.nfts-text,.nfts-images{
-    width: 40%;
+
+.nfts-text, .nfts-images {
+    width: 50%;
+    margin: 4rem;
 }
-#nft-img{
+
+#nft-img {
     width: 100%;
 }
-#nft-msg{
+
+#nft-msg {
+    /* width: 40rem; */
     padding: 1rem;
     line-height: 1.6rem;
 }
-#nfts-btn{
+
+#nfts-btn {
     color: #A02279;
     padding: 0.5rem 1rem;
     margin: 1rem;
     border-radius: 0.4rem;
     border: none;
 }
-.footer{
+
+.footer {
     background-color: black;
     color: #FFFFFF;
+    justify-content: space-around;
     display: flex;
-    width: 80%;
+    width: 100%;
+    padding: 2rem;
     margin: auto;
-    padding: 3rem;
 }
-.right-footer{
+#copyright{
+    width: 12rem;
+    font-size: 1rem;
+}
+
+.social-media {
+    object-fit: contain;
+    margin: 1rem 0;
+    width: 8rem;
+    padding: 1.5rem 0;
+}
+
+.footer-icon {
+    width: 1rem;
+    margin: 0 1rem 0 0;
+}
+
+.right-footer {
     display: flex;
 }
-h6{
+
+.footer-text {
+    margin: 1.5rem;
+}
+.footer-text p{
+    color: #F1F3F9;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+}
+
+h6 {
     color: #FFFFFF;
 }
 
+
 /* separate */
-.connect-wallet{
-    height:1rem;
+.connect-wallet {
+    height: 1rem;
 }
-.locations{
+
+.site {
+    margin: 1rem;
+}
+
+.location-img {
+    width: 15rem;
+    margin: 1rem;
+}
+
+.locations {
     display: flex;
+    justify-content: space-around;
+}
+#location-btn{
+    width: 8rem;
+}
+
+.place {
+    padding: 1.2rem;
+}
+.places-img{
+    padding: 1.2rem;
+    margin: 0 auto;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+    background: rgba(49, 49, 49, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-modal {
+    cursor: pointer;
+}
+
+.nav-wrapper {
+    display: flex;
+}
+
+.modal {
+    position: absolute;
+    display: flex;
+    Justify-content: center;
+    Align-items: center;
+    width: 30%;
+    margin-top: 10rem;
+    margin-left: 24rem;
+    z-index: 38;
+    padding: 3rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.last-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-btn {
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding: 0.4rem 1rem;
+    margin: 0.5rem 0;
+}
+
+hr {
+    background: #CFD8DC;
+    border: 0.01rem solid #CFD8DC;
+    margin: 1rem 0;
+}
+
+#wallet-text {
+    color: #333333;
+    font-size: 0.8rem;
+}
+
+.wallet-img {
+    width: 1.6rem;
+}
+
+.btn-text {
+    margin-left: 1rem;
+    text-align: center;
+    margin-right: 14rem;
+}
+#metamask{
+    margin-right: 16rem;
+}
+
+@media (max-width: 480px) {
+    .metabnb{
+        background-color: palevioletred;
+        width: 100%;
+    }
+    
+    .hero-section{
+        width: 100%;
+        margin: 2rem auto;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #heroImg{
+        width: 20rem;
+        padding-top: 4rem;
+        margin: 0 auto;
+    }
+    .left-text{
+        width: 20rem;
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+    #hero-text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    #hero-input, #hero-btn{
+        width: 100%;
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        margin: 0.5rem 0;
+    }
+    .metalinks1{
+        width: 100%;
+        object-fit: contain;
+    }
 }
