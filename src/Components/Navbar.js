@@ -24,10 +24,10 @@ const Navbar = () => {
           <Link to="/places-to-stay">
             <span className="link">Place to stay</span>
           </Link>
-          <a href="!# ">
+          <a href="!#">
             <span className="link">NFTs</span>
           </a>
-          <a href="!# ">
+          <a href="!#">
             <span className="link">Community</span>
           </a>
         </div>
@@ -35,6 +35,7 @@ const Navbar = () => {
           Connect wallet
         </button>
         <div className="hamburger">
+          <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>

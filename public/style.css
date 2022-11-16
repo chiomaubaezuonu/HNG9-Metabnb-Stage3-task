@@ -241,6 +241,7 @@ h6 {
 }
 
 
+
 /* separate */
 .connect-wallet {
     height: 1rem;
@@ -368,12 +369,14 @@ hr {
     }
     
 .modal{
-    background-color: #FFFFFF;
+    background-color: white;
     width: 100%;
-    margin-right: 4rem;
+    height: 15rem;
+    margin-left: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 38;
 }
 .overlay{
     width: 80%;
@@ -530,20 +533,13 @@ hr{
         display: flex;
         padding: 2rem 0;
     }
-    .location-img{
+    /* .location-img{
         width: 40%;
-    }
+    } */
     .place{
         padding: 0;
     }
-    .feature-img-row1{
-        padding: 0 13rem;
-        margin: 0 13rem;
-    }
-    .feature{
-        width: 40rem;
-    }
-    
+
 }
 /* @media (min-width: 1024px){
     .metabnb{
