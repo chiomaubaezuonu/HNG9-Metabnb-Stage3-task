@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 import Airbnb from "./Components/Airbnb";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import Places from "./Components/Places";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Modal from "./Components/Modal";
+// import Modal from "./Components/Modal";
 
 const App = () => {
   return (

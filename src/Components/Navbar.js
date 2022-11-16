@@ -24,10 +24,10 @@ const Navbar = () => {
           <Link to="/places-to-stay">
             <span className="link">Place to stay</span>
           </Link>
-          <a>
+          <a href="#">
             <span className="link">NFTs</span>
           </a>
-          <a>
+          <a href="#">
             <span className="link">Community</span>
           </a>
         </div>
