@@ -15,7 +15,7 @@ const Places = () => {
         <p className="place">Cabins</p>
         <p className="place">Off-grid</p>
         <p className="place">Farm </p>
-        <img src="./images/location-btn.png" id="location-btn" />
+        <img src="./images/location-btn.png" id="location-btn" alt="place"/>
       </div>
       <div className="site">
         <div className="places-img">
